@@ -53,4 +53,13 @@ Producing data...
 Consuming data...
 
 👉 Consumer waits until producer notifies
+--------------------------------------------------------
+
+👉 wait():
+Releases lock
+Thread goes to WAITING state
+
+👉 notify():
+
+Wakes up ONE waiting thread
 */
