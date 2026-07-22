@@ -1,0 +1,19 @@
+<servlet>
+    <servlet-name>SessionServlet</servlet-name>
+    <servlet-class>Servlet.SessionExampleServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>SessionServlet</servlet-name>
+    <url-pattern>/session</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ProfileServlet</servlet-name>
+    <servlet-class>Servlet.CookieExampleServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ProfileServlet</servlet-name>
+    <url-pattern>/profile</url-pattern>
+</servlet-mapping>
